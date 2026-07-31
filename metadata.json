@@ -1,0 +1,8 @@
+{
+  "name": "Care Dental Clinic",
+  "description": "Premium cinematic website for Care Dental Clinic — Dr. D.S. Kundu, featuring modern design, interactive animations, and WhatsApp integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

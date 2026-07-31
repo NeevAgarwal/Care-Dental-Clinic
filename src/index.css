@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #020617;
+  --color-obsidian-light: #0f172a;
+  --color-gold: #38bdf8;
+  --color-gold-hover: #7dd3fc;
+  --color-gold-muted: #0284c7;
+  --color-ivory: #f8fafc;
+  --color-muted: #94a3b8;
+  --font-display: 'Playfair Display', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-obsidian);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  line-height: 1.625;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
