@@ -44,14 +44,15 @@ export function SmileTransformation() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8 items-center max-w-5xl mx-auto">
           
           {/* Before */}
-          <motion.div             initial={{ opacity: 0, x: -30 }}
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border border-white/10 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/clinic1.jpeg" 
+              src="/patient-1.jpeg" 
               alt="Before Treatment" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
@@ -66,7 +67,7 @@ export function SmileTransformation() {
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border-2 border-gold/40 shadow-[0_0_40px_rgba(212,175,55,0.15)] z-10 md:scale-110 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/clinic2.jpeg" 
+              src="/patient-3.jpeg" 
               alt="After Treatment" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
@@ -81,12 +82,11 @@ export function SmileTransformation() {
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border border-white/10 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/clinic3.jpeg" 
+              src="/patient-2.jpeg" 
               alt="Perfected Smile" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
           </motion.div>
-
         </div>
       </div>
     </section>

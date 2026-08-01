@@ -8,13 +8,13 @@ export function Hero() {
     <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-80"
         style={{ backgroundImage: 'url(/enhanced_qwer.png)' }}
       />
       
       {/* Dark gradient overlay for text readability */}
-      <div className="absolute inset-0 z-10 bg-gradient-to-r from-obsidian/70 via-obsidian/40 to-transparent" />
-      <div className="absolute inset-0 z-10 bg-gradient-to-t from-obsidian/80 via-transparent to-transparent" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-r from-obsidian/60 via-obsidian/30 to-transparent" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-obsidian/60 via-transparent to-transparent" />
 
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-start justify-center">
         <motion.div

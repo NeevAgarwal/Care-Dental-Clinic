@@ -16,7 +16,7 @@ const services = [
   },
   {
     name: "Root Canal",
-    image: "/service4-new.jpg",
+    image: "/service4.jpg",
     benefit: "Advanced endodontics to save your natural tooth."
   },
   {
@@ -36,7 +36,7 @@ const services = [
   },
   {
     name: "Teeth Whitening",
-    image: "/qaa-new.jpg",
+    image: "/qwertyu.jpg",
     benefit: "Brighten your smile by several shades in one visit."
   },
   {
@@ -46,17 +46,17 @@ const services = [
   },
   {
     name: "Orthodontics / Braces",
-    image: "/pois-new.webp",
+    image: "/pois-1.webp",
     benefit: "Straighten your teeth for a perfect, confident smile."
   },
   {
     name: "Dental Crowns & Bridges",
-    image: "/DENTCROWNED.jpg",
+    image: "/njikm.jpg",
     benefit: "Restore damaged teeth and bridge the gaps beautifully."
   },
   {
     name: "Tooth Fillings",
-    image: "/tooth-fillings.webp",
+    image: "/tooth-fillings-new.webp",
     benefit: "Durable, tooth-colored restorations for cavities."
   },
   {
@@ -110,16 +110,16 @@ function ServiceCard({ service, index }: { service: any, index: number, key?: st
         <img 
           src={service.image} 
           alt={service.name}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
       )}
       
       {!service.image && (
-        <div className="absolute inset-0 bg-gradient-to-br from-obsidian-light to-obsidian opacity-100 group-hover:opacity-80 transition-opacity duration-700" />
+        <div className="absolute inset-0 bg-gradient-to-br from-obsidian-light to-obsidian transition-opacity duration-700" />
       )}
       
       {/* Gradient Overlay for Text Readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-transparent opacity-90 group-hover:opacity-100 transition-opacity" />
 
       {/* Content */}
       <div className="absolute inset-0 p-6 flex flex-col justify-end">
