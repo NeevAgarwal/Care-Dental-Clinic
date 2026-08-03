@@ -52,7 +52,7 @@ export function SmileTransformation() {
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border border-white/10 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/patient-1.jpeg" 
+              src="/clinic-image-1.jpeg" 
               alt="Before Treatment" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
@@ -67,7 +67,7 @@ export function SmileTransformation() {
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border-2 border-gold/40 shadow-[0_0_40px_rgba(212,175,55,0.15)] z-10 md:scale-110 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/patient-3.jpeg" 
+              src="/clinic-image-2.jpeg" 
               alt="After Treatment" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />
@@ -82,7 +82,7 @@ export function SmileTransformation() {
             className="relative rounded-2xl overflow-hidden group aspect-[4/3] md:aspect-square border border-white/10 bg-obsidian flex items-center justify-center"
           >
             <img 
-              src="/patient-2.jpeg" 
+              src="/clinic-image-3.jpeg" 
               alt="Perfected Smile" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
             />

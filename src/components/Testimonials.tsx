@@ -42,13 +42,6 @@ export function Testimonials() {
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className="absolute inset-0 flex flex-col items-center justify-center"
             >
-              {/* Avatar */}
-              <img 
-                src={testimonialsData[currentIndex].image}
-                alt={testimonialsData[currentIndex].name}
-                className="w-14 h-14 rounded-full object-cover border border-gold/30 mb-6"
-              />
-              
               {/* Quote */}
               <p className="text-lg md:text-xl text-ivory/90 font-normal italic mb-6 max-w-2xl leading-relaxed">
                 "{testimonialsData[currentIndex].text}"
