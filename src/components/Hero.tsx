@@ -9,7 +9,7 @@ export function Hero() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-80"
-        style={{ backgroundImage: 'url(/enhanced_qwer.png)' }}
+        style={{ backgroundImage: 'url(/landing.jpeg)' }}
       />
       
       {/* Dark gradient overlay for text readability */}
