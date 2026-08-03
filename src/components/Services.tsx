@@ -6,62 +6,62 @@ import { ArrowUpRight } from 'lucide-react';
 const services = [
   {
     name: "Tooth Extraction",
-    image: "/rv.jpg",
+    image: "/tooth-extraction.jpeg",
     benefit: "Safe, swift, and virtually painless."
   },
   {
     name: "Full Mouth Scaling",
-    image: "/service2.jpg",
+    image: "/full-mouth-scaling.jpeg",
     benefit: "Deep ultrasonic cleaning for lasting health."
   },
   {
     name: "Root Canal",
-    image: "/service4.jpg",
+    image: "/root-canal.jpeg",
     benefit: "Advanced endodontics to save your natural tooth."
   },
   {
     name: "Fixed Dentures",
-    image: "/service5.webp",
+    image: "/fixed-dentures.jpeg",
     benefit: "Eat, chew, and smile with confidence."
   },
   {
     name: "Smile Design",
-    image: "/swq.webp",
+    image: "/smile-design.jpeg",
     benefit: "Aesthetic enhancements for a brilliant smile."
   },
   {
     name: "Pediatric Dentistry",
-    image: "/PADITAR.webp",
+    image: "/pediatric.jpeg",
     benefit: "Gentle care for our youngest patients."
   },
   {
     name: "Teeth Whitening",
-    image: "/qwertyu.jpg",
+    image: "/teeth-whitening.jpeg",
     benefit: "Brighten your smile by several shades in one visit."
   },
   {
     name: "Dental Implants",
-    image: "/DENNT.jpg",
+    image: "/dental-implant.jpeg",
     benefit: "Permanent, natural-looking replacements for missing teeth."
   },
   {
     name: "Orthodontics / Braces",
-    image: "/pois-1.webp",
+    image: "/orthodontics.jpeg",
     benefit: "Straighten your teeth for a perfect, confident smile."
   },
   {
     name: "Dental Crowns & Bridges",
-    image: "/njikm.jpg",
+    image: "/dental-crowns.jpeg",
     benefit: "Restore damaged teeth and bridge the gaps beautifully."
   },
   {
     name: "Tooth Fillings",
-    image: "/tooth-fillings-new.webp",
+    image: "/tooth-fillings.jpeg",
     benefit: "Durable, tooth-colored restorations for cavities."
   },
   {
     name: "Periodontal Therapy",
-    image: "/THERAPY.jpg",
+    image: "/periodontal.jpeg",
     benefit: "Advanced treatments for healthy gums and strong foundations."
   }
 ];

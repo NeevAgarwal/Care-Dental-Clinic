@@ -64,7 +64,7 @@ export function About() {
           >
             <div className="absolute inset-0 bg-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 mix-blend-overlay pointer-events-none" />
             <img 
-              src="/about-image-enhanced.png"
+              src="/doctor.jpeg"
               alt="Care Dental Clinic"
               className="w-full h-auto object-contain"
             />
