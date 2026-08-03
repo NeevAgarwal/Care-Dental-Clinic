@@ -6,27 +6,27 @@ import { ArrowUpRight } from 'lucide-react';
 const services = [
   {
     name: "Tooth Extraction",
-    image: "/tooth-extraction.jpeg",
+    image: "/tooth%20extraction.jpeg",
     benefit: "Safe, swift, and virtually painless."
   },
   {
     name: "Full Mouth Scaling",
-    image: "/full-mouth-scaling.jpeg",
+    image: "/full%20mouth%20scaling.jpeg",
     benefit: "Deep ultrasonic cleaning for lasting health."
   },
   {
     name: "Root Canal",
-    image: "/root-canal.jpeg",
+    image: "/root%20canal.jpeg",
     benefit: "Advanced endodontics to save your natural tooth."
   },
   {
     name: "Fixed Dentures",
-    image: "/fixed-dentures.jpeg",
+    image: "/fixed%20dentures.jpeg",
     benefit: "Eat, chew, and smile with confidence."
   },
   {
     name: "Smile Design",
-    image: "/smile-design.jpeg",
+    image: "/smile%20design.jpeg",
     benefit: "Aesthetic enhancements for a brilliant smile."
   },
   {
@@ -36,12 +36,12 @@ const services = [
   },
   {
     name: "Teeth Whitening",
-    image: "/teeth-whitening.jpeg",
+    image: "/teeth%20whitening.jpeg",
     benefit: "Brighten your smile by several shades in one visit."
   },
   {
     name: "Dental Implants",
-    image: "/dental-implant.jpeg",
+    image: "/dental%20implant.jpeg",
     benefit: "Permanent, natural-looking replacements for missing teeth."
   },
   {
@@ -51,12 +51,12 @@ const services = [
   },
   {
     name: "Dental Crowns & Bridges",
-    image: "/dental-crowns.jpeg",
+    image: "/dental%20crowns.jpeg",
     benefit: "Restore damaged teeth and bridge the gaps beautifully."
   },
   {
     name: "Tooth Fillings",
-    image: "/tooth-fillings.jpeg",
+    image: "/tooth%20fillings.jpeg",
     benefit: "Durable, tooth-colored restorations for cavities."
   },
   {
